@@ -29,7 +29,7 @@ export class TodoService {
     if (!todo) {
       return {
         status: HttpStatus.NOT_FOUND,
-        message: `стрижка с id ${id} не найдена`,
+        message: `id ${id} не найдена`,
       };
     }
     return todo;
